@@ -18,22 +18,22 @@ SELECT DISTINCT snum FROM orders;
 
 SELECT sname, city FROM salespeople WHERE city = 'London';
 
--- Select onum, amt and odate fields for all lines from orders table
+-- 1
 
 SELECT onum, amt, odate FROM orders;
 
--- Select all lines from customers table where snum field equal 1001
+-- 2
 
 SELECT * FROM customers WHERE snum = 1001;
 
--- Select city, sname, snum, comm fields from salespeople table
+-- 3
 
 SELECT city, sname, snum, comm FROM salespeople;
 
--- Select rating and name for all customers who live in San Jose
+-- 4
 
 SELECT rating, cname FROM customers WHERE city = 'San Jose';
 
--- Select snum field from orders table without duplicate values
+-- 5
 
 SELECT DISTINCT snum FROM orders;
