@@ -62,7 +62,7 @@ SELECT
   comm
 FROM customers, salespeople
 WHERE customers.snum = salespeople.snum
-AND salespeople.comm > 0.12;
+      AND salespeople.comm > 0.12;
 
 -- 4
 
@@ -71,5 +71,5 @@ SELECT
   amt * comm
 FROM orders, salespeople, customers
 WHERE orders.cnum = customers.cnum
-  AND orders.snum = salespeople.snum
-  AND customers.rating > 100;
+      AND orders.snum = salespeople.snum
+      AND customers.rating > 100;
