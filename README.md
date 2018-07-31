@@ -8,15 +8,15 @@
 
 ### Examples of using
 
-1. [Use to retrieve data from tables - SELECT/FROM/WHERE/LIMIT/OFFSET](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/1_select.sql)
+1. [Use to retrieve data from tables - SELECT/FROM/WHERE/DISTINCT/LIMIT/OFFSET](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/1_select.sql)
 
-2. [The use of relational and Boolean operators to create more complex predicates](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/2_selectAndBoolean.sql)
+2. [The use of relational and Boolean operators to create more complex predicates - AND/OR/NOT](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/2_selectAndBoolean.sql)
 
-3. [The use of special operators in conditions - IN/BETWEEN/LIKE/ISNULL](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/3_inBetweenLikeIsNull.sql)
+3. [The use of special operators in conditions - IN/BETWEEN/LIKE/ISNULL/ESCAPE](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/3_inBetweenLikeIsNull.sql)
 
-4. [Summarizing data using aggregation functions - COUNT/SUM/AVG/MAX/MIN](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/4_countSumAvgMaxMin.sql)
+4. [Summarizing data using aggregation functions - COUNT/SUM/AVG/MAX/MIN/GROUPBY/HAVING](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/4_countSumAvgMaxMin.sql)
 
-5. [Formatting query results](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/5_designAndStreamlining.sql)
+5. [Formatting query results - ORDERBY/DESC](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/5_designAndStreamlining.sql)
 
 6. [Using multiple pages in one query](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/6_useManyTableInOneRequest.sql)
 
