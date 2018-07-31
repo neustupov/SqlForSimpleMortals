@@ -8,7 +8,7 @@
 
 ### Examples of using
 
-1. [Use to retrieve data from tables - SELECT/FROM/WHERE](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/1_select.sql)
+1. [Use to retrieve data from tables - SELECT/FROM/WHERE/LIMIT/OFFSET](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/1_select.sql)
 
 2. [The use of relational and Boolean operators to create more complex predicates](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/2_selectAndBoolean.sql)
 
