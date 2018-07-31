@@ -21,3 +21,5 @@
 6. [Using multiple pages in one query](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/6_useManyTableInOneRequest.sql)
 
 7. [A join operation whose operands are represented by one table](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/7_compoundOperations.sql)
+
+8. [Nesting queries](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/8_nestingQueries.sql)
