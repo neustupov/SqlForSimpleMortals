@@ -34,6 +34,19 @@ SELECT
 FROM salespeople
 WHERE city = 'London';
 
+-- Select first 5 lines from table
+
+SELECT *
+FROM orders
+LIMIT 5;
+
+-- Select 2 lines from table starting with 5
+
+SELECT *
+FROM orders
+LIMIT 2
+OFFSET 5;
+
 -- 1
 
 SELECT
