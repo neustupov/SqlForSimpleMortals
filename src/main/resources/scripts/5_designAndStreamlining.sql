@@ -59,6 +59,15 @@ FROM orders
 GROUP BY snum
 ORDER BY 2 DESC;
 
+-- Use || and AS command for concatenation
+
+SELECT cname || ' with rating ' || rating
+FROM customers;
+
+SELECT sname || ' works with ' || cname AS connect
+FROM salespeople, customers
+WHERE customers.snum = salespeople.snum;
+
 -- 1
 
 SELECT

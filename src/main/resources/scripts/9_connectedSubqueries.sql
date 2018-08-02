@@ -42,3 +42,6 @@ WHERE amt >=
       (SELECT avg(amt)
        FROM orders inn
        WHERE out.cnum = inn.cnum);
+
+-- 1
+
