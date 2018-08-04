@@ -45,3 +45,29 @@ WHERE amt >=
 
 -- 1
 
+SELECT
+  cname,
+  cnum
+FROM customers out
+WHERE rating =
+      (SELECT max(rating)
+       FROM customers inn
+       WHERE out.city = inn.city);
+
+-- 2
+
+SELECT
+  snum,
+  sname
+FROM salespeople out
+WHERE out.city IN
+      (SELECT city
+       FROM customers inn
+       WHERE inn.snum <> out.snum);
+
+SELECT DISTINCT
+  sname,
+  first.snum
+FROM salespeople first, customers second
+WHERE first.city = second.city
+      AND second.snum <> first.snum;
