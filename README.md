@@ -22,6 +22,8 @@
 
 6. [Using multiple tables in one query](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/6_useManyTableInOneRequest.sql)
 
+6.1 [External and internal associations of tables - LEFT/RIGHT/FULL JOIN](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/6_1_internalAssociations.sql)
+
 7. [A join operation whose operands are represented by one table](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/7_compoundOperations.sql)
 
 8. [Nesting queries](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/8_nestingQueries.sql)
