@@ -71,3 +71,23 @@ SELECT DISTINCT
 FROM salespeople first, customers second
 WHERE first.city = second.city
       AND second.snum <> first.snum;
+
+-- List of buyers which was serviced by sellers with a commision between 0.12 and 0.13
+
+SELECT *
+FROM customers
+WHERE snum IN
+      (SELECT snum
+       FROM salespeople
+       WHERE comm BETWEEN .12 AND .13);
+
+-- Using a subquery as the calculated field
+
+SELECT
+  cnum,
+  cname,
+  (SELECT count(*)
+   FROM orders
+   WHERE orders.cnum = customers.cnum) AS orders
+FROM customers
+ORDER BY cnum;
