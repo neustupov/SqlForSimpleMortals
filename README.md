@@ -18,8 +18,14 @@
 
 5. [Formatting query results - ORDERBY/DESC](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/5_designAndStreamlining.sql)
 
+5.1 [Data processing functions - UPPER/LOWER, LEFT/RIGHT, LENGTH, LTRIM/RTRIM, DATE_PART](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/5_1_dataProcessingFunctions.sql)
+
 6. [Using multiple pages in one query](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/6_useManyTableInOneRequest.sql)
 
 7. [A join operation whose operands are represented by one table](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/7_compoundOperations.sql)
 
 8. [Nesting queries](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/8_nestingQueries.sql)
+
+9. [Connected subqueries](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/9_connectedSubqueries.sql)
+
+10. [Use EXIST operator - EXIST](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/10_usingEXISToperator.sql)
