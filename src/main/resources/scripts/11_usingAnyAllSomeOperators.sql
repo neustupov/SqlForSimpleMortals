@@ -112,8 +112,54 @@ WHERE NOT exists(
 SELECT *
 FROM customers out
 WHERE 1 > (
-    SELECT count(*)
-    FROM customers inn
-    WHERE out.rating <= inn.rating
-          AND inn.city = 'Rome'
+  SELECT count(*)
+  FROM customers inn
+  WHERE out.rating <= inn.rating
+        AND inn.city = 'Rome'
+);
+
+-- 1
+
+SELECT *
+FROM customers
+WHERE rating >= ANY (
+  SELECT rating
+  FROM customers
+  WHERE snum = (
+    SELECT snum
+    FROM salespeople
+    WHERE sname = 'Serres'
+  )
+);
+
+-- 3
+
+SELECT *
+FROM salespeople out
+WHERE city <> ALL (
+  SELECT inn.city
+  FROM customers inn
+  WHERE inn.snum = out.snum
+);
+
+-- 4
+
+SELECT *
+FROM orders
+WHERE amt > ALL (
+  SELECT amt
+  FROM orders o, customers c
+  WHERE o.cnum = c.cnum
+        AND c.city = 'Lodon'
+);
+
+-- 5
+
+SELECT *
+FROM orders
+WHERE amt > (
+  SELECT max(amt)
+  FROM orders o, customers c
+  WHERE o.cnum = c.cnum
+        AND c.city = 'Lodon'
 );
