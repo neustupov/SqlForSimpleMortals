@@ -31,3 +31,5 @@
 9. [Connected subqueries](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/9_connectedSubqueries.sql)
 
 10. [Use EXIST operator - EXIST](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/10_usingEXISToperator.sql)
+
+11. [Using ANY, ALL and SOME operators - ANY/ALL/SOME](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/11_usingAnyAllSomeOperators.sql)
