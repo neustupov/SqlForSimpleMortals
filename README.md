@@ -39,3 +39,5 @@
 13. [Insert, update, delete fields values - INSERT/DELETE/UPDATE](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/13_inputDeleteUpdateFieldsValues.sql)
 
 14. [Using subqueries with update commands](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/14_usingSubqueriesWithUpdateCommands.sql)
+
+15. [Creating tables - CREATE TABLE/INDEX/UNIQUE INDEX/DROP/ALTER](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/15_createTables.sql)
