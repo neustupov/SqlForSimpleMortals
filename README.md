@@ -37,3 +37,5 @@
 12. [Using UNION operator - UNION](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/12_usingUNIONoperator.sql)
 
 13. [Insert, update, delete fields values - INSERT/DELETE/UPDATE](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/13_inputDeleteUpdateFieldsValues.sql)
+
+14. [Using subqueries with update commands](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/14_usingSubqueriesWithUpdateCommands.sql)
