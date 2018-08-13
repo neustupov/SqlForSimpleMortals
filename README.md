@@ -43,3 +43,6 @@
 15. [Creating tables - CREATE TABLE/INDEX/UNIQUE INDEX/DROP/ALTER](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/15_createTables.sql)
 
 16. [Constraints on set of allowed data values - NOT NULL/UNIQUE/PRIMARY KEY/CHECK/DFAULT](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/16_constraintsOnSetOfAllowedDataValues.sql)
+
+
+17. [Maintaining data integrity - CREATE TABLE](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/17_maintainingDataIntegrity.sql)
