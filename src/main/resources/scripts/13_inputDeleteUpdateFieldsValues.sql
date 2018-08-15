@@ -68,3 +68,13 @@ WHERE snum = (
   FROM salespeople
   WHERE sname = 'Serres'
 );
+
+-- Copy tables
+
+SELECT *
+INTO copytable
+FROM salespeople;
+
+CREATE TABLE othercopy
+AS SELECT *
+   FROM customers;
