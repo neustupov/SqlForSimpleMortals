@@ -78,3 +78,7 @@ FROM salespeople;
 CREATE TABLE othercopy
 AS SELECT *
    FROM customers;
+
+-- Delete all lines in table(fast speed)
+
+TRUNCATE TABLE othercopy;
