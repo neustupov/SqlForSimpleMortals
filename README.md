@@ -48,3 +48,5 @@
 17. [Maintaining data integrity - CREATE TABLE](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/17_maintainingDataIntegrity.sql)
 
 18. [Introduction to views - CREATE VIEW/DROP VIEW](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/18_introductionToViews.sql)
+
+19. [Changing values using views - WITH CHECK OPTION](https://github.com/neustupov/SqlForSimpleMortals/blob/master/src/main/resources/scripts/19_changingValuesUsingViews.sql)
