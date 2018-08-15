@@ -25,6 +25,10 @@ DROP INDEX Clientgroup;
 ALTER TABLE salespeople
   ADD lastname VARCHAR;
 
+-- Rename tables
+
+ALTER TABLE daytotals RENAME daytotalsnew;
+
 -- Delete tables
 
 DROP TABLE salespeople;
