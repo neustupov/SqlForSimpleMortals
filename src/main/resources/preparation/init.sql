@@ -29,7 +29,7 @@ CREATE TABLE orders
 (
   onum         INTEGER                 PRIMARY KEY ,
   amt          DECIMAL                 NOT NULL,
-  odate        DATE                    NOT NULL,
+  odate        DATE                    NOT NULL DEFAULT current_date,
   cnum         INTEGER                 NOT NULL,
   snum         INTEGER                 NOT NULL,
   FOREIGN KEY (snum) REFERENCES SALESPEOPLE (snum) ON DELETE CASCADE ,
